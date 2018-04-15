@@ -1,0 +1,8 @@
+C:\Users\71442\source\repos\Server\Server\bin\Debug\Server.exe.config
+C:\Users\71442\source\repos\Server\Server\bin\Debug\Server.exe
+C:\Users\71442\source\repos\Server\Server\bin\Debug\Server.pdb
+C:\Users\71442\source\repos\Server\Server\bin\Debug\MySql.Data.dll
+C:\Users\71442\source\repos\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\71442\source\repos\Server\Server\obj\Debug\Server.exe
+C:\Users\71442\source\repos\Server\Server\obj\Debug\Server.pdb
+C:\Users\71442\source\repos\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
