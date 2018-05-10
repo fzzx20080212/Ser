@@ -15,7 +15,7 @@ namespace Server
 {
     class Conn
     {
-        public const int BUFFER_SIZE = 1024*1024;
+        public const int BUFFER_SIZE = 1024;
         public Socket socket;
         public bool isUse = false;
         public byte[] readBuff = new byte[BUFFER_SIZE];

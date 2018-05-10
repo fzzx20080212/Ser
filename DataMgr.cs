@@ -51,7 +51,7 @@ namespace Server
         private bool CanRegister(string id)
         {
             //查询id是否存在
-            string cmdStr = string.Format("Select*from user where id='{0}';", id);
+            string cmdStr = string.Format("Select*from VRUser where id='{0}';", id);
             MySqlCommand cmd = new MySqlCommand(cmdStr, sqlConn);
             try
             {
@@ -79,7 +79,7 @@ namespace Server
                 Console.WriteLine("注册失败，已存在的用户");
                 return false;
             }
-            string cmdStr = string.Format("insert into user set id='{0}',pw='{1}';", id,pw);
+            string cmdStr = string.Format("insert into VRUser set id='{0}',pw='{1}';", id,pw);
             MySqlCommand cmd = new MySqlCommand(cmdStr, sqlConn);
             try
             {
@@ -139,7 +139,7 @@ namespace Server
             {
                 return false;
             }
-            string cmdStr = string.Format("Select*from user where id='{0}'and pw='{1}';", id,pw);
+            string cmdStr = string.Format("Select*from VRUser where id='{0}'and pw='{1}';", id,pw);
             MySqlCommand cmd = new MySqlCommand(cmdStr, sqlConn);
             try
             {

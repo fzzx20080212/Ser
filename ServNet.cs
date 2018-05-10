@@ -181,20 +181,8 @@ namespace Server
         {
             string name = protoBase.GetName();
             string methodName = "Msg" + name;
-            //分发语音
-            if (name == "Voice")
-            {
-                //Send(conn, protoBase);
-                for (int i = 0; i < conns.Length; i++)
-                {
-                    if (!conns[i].isUse)
-                        continue;
-
-                    Send(conns[i], protoBase);
-                }
-            }
             //连接协议分发
-            else if(conn.player==null||name=="HeartBeat"||name=="Logout")
+            if(conn.player==null||name=="HeartBeat"||name=="Logout")
             {
                 MethodInfo methodInfo = handleConnMsg.GetType().GetMethod(methodName);
                 if(methodInfo==null)

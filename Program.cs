@@ -11,7 +11,7 @@ namespace Server
         static void Main(string[] args)
         {
             ServNet serv = ServNet.getInstance();
-            serv.Start("127.0.0.1",1234);
+            serv.Start("192.168.50.31",1234);
             Console.ReadLine();
         }
     }

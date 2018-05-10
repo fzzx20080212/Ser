@@ -6,3 +6,13 @@ C:\Users\71442\source\repos\Server\Server\obj\Debug\Server.csproj.CoreCompileInp
 C:\Users\71442\source\repos\Server\Server\obj\Debug\Server.exe
 C:\Users\71442\source\repos\Server\Server\obj\Debug\Server.pdb
 C:\Users\71442\source\repos\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+F:\BS\Ser\bin\Debug\Server.exe.config
+F:\BS\Ser\bin\Debug\Server.exe
+F:\BS\Ser\bin\Debug\Server.pdb
+F:\BS\Ser\obj\Debug\Server.csprojResolveAssemblyReference.cache
+F:\BS\Ser\obj\Debug\Server.csproj.CoreCompileInputs.cache
+F:\BS\Ser\obj\Debug\Server.csproj.CopyComplete
+F:\BS\Ser\obj\Debug\Server.exe
+F:\BS\Ser\obj\Debug\Server.pdb
+F:\BS\Ser\bin\Debug\MySql.Data.dll
+F:\BS\Ser\bin\Debug\MySql.Data.xml
